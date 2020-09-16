@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        nav ul li { display: inline; text-transform: uppercase; font-size: 0.8em; }
+        a { color: tomato; font-weight: bold }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Inicio |</a></li>
+            <li><a href="{% url 'menu' %}">Menú Infantil |</a></li>
+            <li><a href="{% url 'receta' %}">Receta Facil |</a></li>
+            <li><a href="{% url 'mafe' %}">Mafe</a></li>
+            <li><a href="{% url 'feijoada' %}">Feijoada |</a></li>
+            <li><a href="{% url 'pizza' %}">Pizza |</a></li>
+            <li><a href="{% url 'canelones' %}">Canelones |</a></li>
+            <li><a href="{% url 'calabacin' %}">Flor de Calabacín |</a></li>
+            <li><a href="{% url 'gazpacho' %}">Gazpacho |</a></li>
+            <li><a href="{% url 'noodles' %}">Sopa de Noodles |</a></li>
+            <li><a href="{% url 'ensaladilla' %}">Ensaladilla Rusa |</a></li>
+            <li><a href="{% url 'carbonara' %}">Carbonara</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1 style="text-align: center">Libro de Recetas</h1>
+</body>
+</html>

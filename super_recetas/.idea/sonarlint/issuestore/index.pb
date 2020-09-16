@@ -1,0 +1,19 @@
+
+I
+super_recetas/__init__.py,2/9/29a7b3440b35a456a612a055ce77c00229caff41
+I
+super_recetas/settings.py,a/3/a334cc3fed558b12c7161b1bb8c7752431edc372
+B
+receta/__init__.py,5/1/51ca2d4dc14cd29c2f69b2c6d373cf152b041744
+J
+receta/templates/base.html,4/5/45b8d30fc0e338b008ba956278952016f1a0cfdc
+J
+receta/templates/home.html,5/9/59f3c08b39e0226a775b4f862b6e24866a764a99
+?
+receta/views.py,f/b/fbfeea9cda3fc30069977de8240973b61b5c9a7d
+E
+super_recetas/urls.py,c/4/c42495bfb9bff881d6e3dd195471d464d6c12020
+9
+	manage.py,3/1/3156ad13e4d695cd526bbb7b031016ecba842270
+d
+4receta/templates/recetas/ensaladilla_rusa/index.html,c/1/c13f40cf67501d7d00640ff715172fcc61de75c4

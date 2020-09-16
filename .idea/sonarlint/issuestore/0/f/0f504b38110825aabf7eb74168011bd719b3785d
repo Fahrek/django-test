@@ -1,0 +1,10 @@
+
+HWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(ÊäÎûÿÿÿÿ
+m%Web:ItemTagNotWithinContainerTagCheck0"<Surround this <li> item tag by a <ul> or <ol> container one.(®åáø
+VWeb:LinkToImageCheck@"1Change this link to not directly target an image.(ˆÓËùşÿÿÿÿ
+r%Web:ItemTagNotWithinContainerTagCheck7"<Surround this <li> item tag by a <ul> or <ol> container one.(å›¬ëÿÿÿÿÿ
+LWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(ÊäÎûÿÿÿÿ
+GWeb:ImgWithoutAltCheck="%Add an "alt" attribute to this image.(‰ÄÒÎ
+„	Web:S5148?"oAdd rel="noopener noreferrer" to this link to prevent the original page from being modified by the opened link.(Ûæœ
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+m%Web:ItemTagNotWithinContainerTagCheck+"<Surround this <li> item tag by a <ul> or <ol> container one.(´ğÄî

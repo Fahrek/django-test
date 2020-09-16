@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'home' %}"> home </a>
+        <a href="{% url 'inicio' %}"> contact </a>
+        <a href="{% url 'about' %}"> about </a>
+    </nav>
+    <h1>Esta página ha sido creada usando Python</h1>
+    <p>El nombre de su creador es Andrés G. Quina, su número favorito es el {{ numero_favorito }}</p>
+</body>
+</html>
