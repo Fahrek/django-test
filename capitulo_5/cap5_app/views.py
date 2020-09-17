@@ -24,3 +24,37 @@ def insert(request):
     #     print('Funka!', file = debug_file)
 
     return HttpResponse('Registro insertado.')
+
+
+def select(request):
+
+    conn = psycopg2.connect(dbname   = 'capitulo_4_db',
+                            user     = 'capitulo_4_user',
+                            password = 'patata')
+
+    cursor = conn.cursor()
+
+    cursor.execute("select * from emp;")
+
+    # Pinta los datos devueltos en HTML
+
+    html = '<html>'
+
+    columns = [col[0] for col in cursor.description]
+
+    for column in columns:
+        html += str(column) + '|'
+
+    html += '<br>'
+
+    for empleado in cursor.fetchall():
+        for columna in empleado:
+            html += str(columna) + '|'
+        html += '<br>'
+
+    html += '</html>'
+
+    cursor.close()
+    conn.close()
+
+    return HttpResponse(html)
