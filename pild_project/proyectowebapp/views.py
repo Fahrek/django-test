@@ -4,7 +4,7 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 
 def home(request):
-    return render(request, 'proycetowebapp/home.html')
+    return render(request, 'proyectowebapp/home.html')
 
 
 def servicios(request):
