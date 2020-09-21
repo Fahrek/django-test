@@ -18,7 +18,8 @@ from django.urls import path
 from listas import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.home_page_view, name='inicio'),
-    path('add/', views.insert, name='insert'),
+    path('admin/',  admin.site.urls),
+    path('',        views.home_page_view, name='inicio'),
+    path('add/',    views.insert,         name='insert'),
+    path('select/', views.select,         name='select')
 ]
