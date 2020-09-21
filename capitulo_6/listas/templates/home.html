@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
 </head>
+
 <body>
-<h2>Notas</h2>
-<form action="/anadir" method="POST">
-    <label for="id_prioridad">Prioridad:</label>
-    <select name="name_prioridad" id="id_prioridad">
-        <option value="alta">Alta</option>
-        <option value="normal">Normal</option>
-        <option value="baja">Baja</option>
-    </select><br>
-    <input type="text" name="nombre_titulo" placeholder="Título"><br>
-    <textarea name="name_nota" id="id_new_item" cols="31" rows="10" placeholder="Introduce tu nota aquí"></textarea><br>
-    <input type="submit" value="guardar">
-</form>
+
+    <h2>Notas</h2>
+
+    <form action="/add/" method="POST">
+        {% csrf_token %}
+        <label for="id_prioridad">Prioridad:</label>
+        <select name="prioridad" id="id_prioridad">
+            <option value="alta">Alta</option>
+            <option value="normal">Normal</option>
+            <option value="baja">Baja</option>
+        </select><br>
+        <input type="text" name="subject" placeholder="Título"><br>
+        <textarea name="msg" id="id_new_item" cols="31" rows="10" placeholder="Introduce tu nota aquí"></textarea><br>
+        <input type="submit" value="guardar">
+    </form>
+
 </body>
 </html>
