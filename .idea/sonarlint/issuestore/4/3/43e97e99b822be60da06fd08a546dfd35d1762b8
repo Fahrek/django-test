@@ -1,0 +1,6 @@
+
+\python:S930-"@Add 2 missing arguments; 'adapt' expects 3 positional arguments.(¥—¬Šúÿÿÿÿ
+rpython:S3776Œ"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ıŞî­úÿÿÿÿ
+Fpython:S2201…"(The return value of "type" must be used.(§İ«úÿÿÿÿ
+lpython:S107Ü"OMethod "_alter_field" has 9 parameters, which is greater than the 7 authorized.(ûĞİåşÿÿÿÿ
+rpython:S3776Ü"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(ûĞİåşÿÿÿÿ

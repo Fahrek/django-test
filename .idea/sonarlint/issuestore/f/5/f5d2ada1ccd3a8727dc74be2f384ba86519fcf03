@@ -1,0 +1,10 @@
+
+Hpython:S5806F"+Rename this variable; it shadows a builtin.(ÉûÆÀûÿÿÿÿ
+ˆpython:S1542’"jRename function "message_about_scripts_not_on_PATH" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(÷‡‹±ýÿÿÿÿ
+spython:S107Ï"VFunction "move_wheel_files" has 11 parameters, which is greater than the 7 authorized.(‚ ¨žýÿÿÿÿ
+rpython:S3776Ï"TRefactor this function to reduce its Cognitive Complexity from 85 to the 15 allowed.(‚ ¨žýÿÿÿÿ
+8python:S3626Š"Remove this redundant continue.(À–¬ˆ
+Ipython:S5806Ü"+Rename this variable; it shadows a builtin.(þµøŽùÿÿÿÿ
+mpython:S3776Ä"TRefactor this function to reduce its Cognitive Complexity from 53 to the 15 allowed.(œîÂÄ
+Apython:S108Þ")Either remove or fill this block of code.(ã‘Û¾
+Apython:S108à")Either remove or fill this block of code.(ã‘Û¾

@@ -1,0 +1,6 @@
+
+lpython:S1192"ODefine a constant instead of duplicating this literal 'signed integer' 6 times.(“ºŞ·ùÿÿÿÿ
+npython:S1192"QDefine a constant instead of duplicating this literal 'unsigned integer' 3 times.(•ˆî‘øÿÿÿÿ
+Mpython:S1066÷"/Merge this if statement with the enclosing one.(Ÿ‡Îãûÿÿÿÿ
+Cpython:S5806l"+Rename this variable; it shadows a builtin.(ğà¦‰
+Ipython:S5806Õ"+Rename this variable; it shadows a builtin.(íÛ·ùÿÿÿÿ

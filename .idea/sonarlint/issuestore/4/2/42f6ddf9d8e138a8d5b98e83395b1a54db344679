@@ -1,0 +1,3 @@
+
+tpython:S1192ù"VDefine a constant instead of duplicating this literal "JSON_EXTRACT(%s, '$')" 3 times.(Ö¿Ò¦üÿÿÿÿ
+rpython:S4144³"YUpdate this function so that its implementation is not identical to as_mysql on line 284.(Ê£ù’

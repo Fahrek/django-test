@@ -1,0 +1,23 @@
+
+Hpython:S1066Ê"/Merge this if statement with the enclosing one.(‚³¼Ü
+lpython:S3776?"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(„´„
+rpython:S3776Ç"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(˜¹ğ¹ùÿÿÿÿ
+mpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 63 to the 15 allowed.(öƒ¦œ
+rpython:S3776±"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ò‰şşÿÿÿÿ
+rpython:S3776è"TRefactor this function to reduce its Cognitive Complexity from 73 to the 15 allowed.(Ó€¾Ãıÿÿÿÿ
+mpython:S3776Ä"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Åó–Ğ
+mpython:S3776œ"TRefactor this function to reduce its Cognitive Complexity from 55 to the 15 allowed.(‘ìØî
+Ipython:S5806Æ"+Rename this variable; it shadows a builtin.(ÆØŞŞüÿÿÿÿ
+rpython:S3776Ì"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(ˆ¹Ğ‘úÿÿÿÿ
+rpython:S3776è"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ĞóÃ™ûÿÿÿÿ
+Rpython:S2638°
+"4Add missing parameters with_limits with_col_aliases.(”Ø‡‘úÿÿÿÿ
+rpython:S3776°
+"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(”Ø‡‘úÿÿÿÿ
+Npython:S2638í
+"0Add missing parameters chunked_fetch chunk_size.(ïÁ£ƒÿÿÿÿÿ
+Rpython:S2638’"4Add missing parameters with_limits with_col_aliases.(”Ø‡‘úÿÿÿÿ
+Rpython:S2638¬"4Add missing parameters with_limits with_col_aliases.(”Ø‡‘úÿÿÿÿ
+rpython:S3776¬"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(”Ø‡‘úÿÿÿÿ
+Ipython:S2638ë"0Add missing parameters chunked_fetch chunk_size.(¹ÄÏ¹
+Rpython:S2638¬"4Add missing parameters with_limits with_col_aliases.(”Ø‡‘úÿÿÿÿ

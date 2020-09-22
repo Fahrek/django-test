@@ -1,0 +1,12 @@
+
+mpython:S1542"PRename function "CASCADE" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(‡¿‡øÿÿÿÿ
+mpython:S1542 "PRename function "PROTECT" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Š¹´üÿÿÿÿ
+hpython:S1542*"QRename function "RESTRICT" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(”ê™s
+ipython:S1542/"LRename function "SET" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¤†ó£üÿÿÿÿ
+npython:S1542:"QRename function "SET_NULL" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ëâ–ùÿÿÿÿ
+lpython:S1542>"TRename function "SET_DEFAULT" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ŠÆÃ¶
+kpython:S1542B"SRename function "DO_NOTHING" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ï±Ÿ
+spython:S1186B"[Add a nested comment explaining why this function is empty, or complete the implementation.(ï±Ÿ
+bpython:S107Ö"JMethod "collect" has 9 parameters, which is greater than the 7 authorized.(Ö…®
+mpython:S3776Ö"TRefactor this function to reduce its Cognitive Complexity from 60 to the 15 allowed.(Ö…®
+rpython:S3776û"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(„úÔçøÿÿÿÿ

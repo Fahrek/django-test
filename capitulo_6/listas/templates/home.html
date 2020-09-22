@@ -10,8 +10,17 @@
 
     <h2>Notas</h2>
 
+    {% for nota in notas %}
+        <fieldset>
+            <legend><span style="text-transform: uppercase;">{{ nota.prioridad }}</span> - <strong><u>{{ nota.titulo }}</u></strong></legend>
+            {{ nota.nota }} <br>
+        </fieldset><br>
+    {% endfor %}
+
     <form action="/add/" method="POST">
+
         {% csrf_token %}
+
         <label for="id_prioridad">Prioridad:</label>
         <select name="prioridad" id="id_prioridad">
             <option value="alta">Alta</option>

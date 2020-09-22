@@ -1,0 +1,14 @@
+
+hpython:S1074"LMethod "__init__" has 13 parameters, which is greater than the 7 authorized.(¡ª²şşÿÿÿÿ
+epython:S1134’"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ë™ËÆ
+kpython:S107ó"SMethod "move_wheel_files" has 8 parameters, which is greater than the 7 authorized.(€Äáƒ
+mpython:S3776ô"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(êÿì
+python:S1871“"cEither merge this branch with the identical one on line "528" or change one of the implementations.(³¹Õûÿÿÿÿ
+jpython:S1134ç"LTake the required action to fix the issue indicated by this "FIXME" comment.(ïü¢ìúÿÿÿÿ
+mpython:S3776¸"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(‚ºş÷
+Ipython:S5806Ñ"+Rename this variable; it shadows a builtin.(½åïäøÿÿÿÿ
+Ipython:S5806Õ"+Rename this variable; it shadows a builtin.(µµÈíúÿÿÿÿ
+gpython:S107è"JMethod "install" has 9 parameters, which is greater than the 7 authorized.(Óƒ£ÿÿÿÿÿ
+rpython:S3776è"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Óƒ£ÿÿÿÿÿ
+epython:S1134±"LTake the required action to fix the issue indicated by this "FIXME" comment.(¼ßºÖ
+jpython:S1134²"LTake the required action to fix the issue indicated by this "FIXME" comment.(ÖÁš¦üÿÿÿÿ

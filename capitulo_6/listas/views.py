@@ -1,11 +1,26 @@
-from django.shortcuts import render, HttpResponse
-import psycopg2
+from django.shortcuts import render, HttpResponse, redirect
+import psycopg2.extras
 
 
 # Create your views here.
 
 def home_page_view(request):
-    return render(request, 'home.html')
+
+    conn = psycopg2.connect(dbname   = 'notas',
+                            user     = 'capitulo_4_user',
+                            password = 'patata')
+
+    cursor = conn.cursor(cursor_factory = psycopg2.extras.DictCursor)
+    cursor.execute('select * from nota;')
+
+    result = cursor.fetchall()
+
+    cursor.close()
+    conn.close()
+
+    params = {'notas': result}
+
+    return render(request, 'home.html', params)
 
 # def insert(request):
 #     return render(request, 'insert.html')
@@ -19,17 +34,17 @@ def insert(request):
 
     prioridad = request.POST['prioridad']
     titulo    = request.POST['subject']
-    nota      = request.POST['msg']
+    contenido = request.POST['msg']
 
     cursor = conn.cursor()
-    cursor.execute(f"INSERT INTO nota VALUES ('{prioridad}', '{titulo}', '{nota}')")
+    cursor.execute(f"INSERT INTO nota VALUES ('{prioridad}', '{titulo}', '{contenido}')")
 
     conn.commit()
 
     cursor.close()
     conn.close()
 
-    return HttpResponse('Insertado')
+    return redirect('inicio')
 
     # return HttpResponse(f'<h2> Insertado </h2> <br> '
     #                     '<dl>'

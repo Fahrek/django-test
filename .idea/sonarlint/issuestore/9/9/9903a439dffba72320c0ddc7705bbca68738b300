@@ -1,0 +1,10 @@
+
+hpython:S1192}"KDefine a constant instead of duplicating this literal 'NUMBER(11)' 5 times.(Éð»ƒÿÿÿÿÿ
+§python:S1192 "ˆDefine a constant instead of duplicating this literal "LIKE TRANSLATE(%s USING NCHAR_CS) ESCAPE TRANSLATE('\\' USING NCHAR_CS)" 3 times.(öÒÉØýÿÿÿÿ
+qpython:S1192u"ZDefine a constant instead of duplicating this literal 'NVARCHAR2(%(max_length)s)' 4 times.(„ Š
+©python:S1192¡"Define a constant instead of duplicating this literal "LIKE UPPER(TRANSLATE(%s USING NCHAR_CS)) ESCAPE TRANSLATE('\\' USING NCHAR_CS)" 3 times.(ÅÏ’×
+zpython:S1192¯"\Define a constant instead of duplicating this literal "LIKEC UPPER(%s) ESCAPE '\\'" 3 times.(¤“¹Œúÿÿÿÿ
+npython:S1192®"UDefine a constant instead of duplicating this literal "LIKEC %s ESCAPE '\\'" 3 times.(ñô¡
+qpython:S1192“"SDefine a constant instead of duplicating this literal '%(qn_column)s >= 0' 3 times.(øÄþÚÿÿÿÿÿ
+tpython:S117¯"WRename this parameter "defaultType" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÙÁöÍþÿÿÿÿ
+lpython:S3776Õ"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ï›Òo

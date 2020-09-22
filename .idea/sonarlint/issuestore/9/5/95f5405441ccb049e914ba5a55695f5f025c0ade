@@ -1,0 +1,11 @@
+
+Gpython:S10668"/Merge this if statement with the enclosing one.(À”¬
+Mpython:S1066Ö"/Merge this if statement with the enclosing one.(à¬´Æúÿÿÿÿ
+Mpython:S1066Ü"/Merge this if statement with the enclosing one.(à¬´Æúÿÿÿÿ
+dpython:S107Ì"LMethod "__init__" has 12 parameters, which is greater than the 7 authorized.(€Ë’€
+dpython:S107š"LMethod "__init__" has 10 parameters, which is greater than the 7 authorized.(œáÍÀ
+dpython:S107ø"LMethod "__init__" has 12 parameters, which is greater than the 7 authorized.(­÷Í…
+rpython:S3776Ó	"TRefactor this function to reduce its Cognitive Complexity from 60 to the 15 allowed.(è¶Öÿÿÿÿÿ
+rpython:S3776”"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(öìÄŞúÿÿÿÿ
+mpython:S3776¨"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ƒ¾ÖÑ
+wpython:S1186ÿ"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ñ¹Áäıÿÿÿÿ
