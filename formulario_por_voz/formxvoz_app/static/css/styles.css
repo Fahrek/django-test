@@ -1,0 +1,91 @@
+body
+{
+   font-size: 24px;
+}
+
+label
+{
+   display: block;
+}
+
+input
+{
+   display: block;
+   font-size: inherit;
+   margin-bottom: 0.5em;
+}
+
+input[type="submit"]
+{
+   padding: 0.2em 0.5em;
+}
+
+.icon-tts
+{
+   float: right;
+   cursor: pointer;
+}
+
+.button-demo
+{
+   font-size: inherit;
+   padding: 0.5em;
+   display: inline-block;
+   margin: 0.5em auto;
+}
+
+@-webkit-keyframes rotation
+{
+   from
+   {
+      -webkit-transform: rotate(0deg);
+   }
+   to
+   {
+      -webkit-transform: rotate(359deg);
+   }
+}
+
+@keyframes rotation
+{
+   from
+   {
+      transform: rotate(0deg);
+   }
+   to
+   {
+      transform: rotate(359deg);
+   }
+}
+
+.spinner-wrapper
+{
+   display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   background: rgba(180, 180, 180, 0.7);
+   text-align: center;
+   padding: 20px;
+}
+
+.spinner
+{
+   height: 60px;
+   width: 60px;
+   margin: 10px auto;
+   position: relative;
+   -webkit-animation: rotation .6s infinite linear;
+   animation: rotation .6s infinite linear;
+   border-left: 6px solid rgba(0, 174, 239, .15);
+   border-right: 6px solid rgba(0, 174, 239, .15);
+   border-bottom: 6px solid rgba(0, 174, 239, .15);
+   border-top: 6px solid rgba(0, 174, 239, .8);
+   border-radius: 100%;
+}
+
+.hidden
+{
+   display: none !important;
+}

@@ -85,3 +85,15 @@ def select(request):
     return HttpResponse(html)
 
 
+def delete(request):
+    conn = psycopg2.connect(dbname="notas",
+                            user="capitulo_4_user",
+                            password="patata")
+
+    cursor = conn.cursor()
+    cursor.execute("delete from nota")
+
+    cursor.close()
+    conn.close()
+
+    return HttpResponse('Borrado')
